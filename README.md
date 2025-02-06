@@ -96,7 +96,7 @@ FROM mortality_data
 GROUP BY Cause
 ORDER BY Total_Deaths DESC
 LIMIT 10;
-
+```
 <p align="center">  
   <img src="https://github.com/user-attachments/assets/9c378f9b-5c77-49f7-98f8-ef493d5f61e8" width="600" >  
 </p>
