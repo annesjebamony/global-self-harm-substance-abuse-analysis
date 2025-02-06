@@ -44,7 +44,7 @@ The insights generated can assist **healthcare organizations, policymakers, and 
 - This highlights a **critical gender disparity** in mental health crises and substance-related deaths.  
 
 <p align="center">  
-  <img src="your_path_here.png" width="400">  
+  <img src="https://github.com/user-attachments/assets/84d9850d-1b00-4c42-ac0e-18093cc8476c" width="400">  
 </p>
 
 ---
