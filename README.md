@@ -55,7 +55,7 @@ The insights generated can assist **healthcare organizations, policymakers, and 
 - **Intentional Self-Harm:** Noticeable rise in **middle-aged groups (45-64)**, requiring targeted interventions.  
 
 <p align="center">  
-  <img src="your_path_here.png" width="600">  
+  <img src="https://github.com/user-attachments/assets/31451884-ef2f-41f7-834d-ade937f36895" width="600">  
 </p>
 
 ---
@@ -66,7 +66,7 @@ The insights generated can assist **healthcare organizations, policymakers, and 
 - Geographic disparities suggest **different healthcare policies and social factors** impacting these deaths.  
 
 <p align="center">  
-  <img src="your_path_here.png" width="600">  
+  <img src="https://github.com/user-attachments/assets/40402d79-7639-4535-bbdd-77311c2cbaee" width="600">  
 </p>
 
 ---
@@ -77,6 +77,7 @@ The insights generated can assist **healthcare organizations, policymakers, and 
 - These insights could drive **preventive care investments** and **mental health policy reforms**.  
 
 <p align="center">  
-  <img src="your_path_here.png" width="600">  
+  <img src="https://github.com/user-attachments/assets/cdaa07cb-4697-42f9-985e-a87f8ea61e2f
+" width="600">  
 </p>
 
