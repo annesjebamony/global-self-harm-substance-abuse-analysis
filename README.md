@@ -30,7 +30,7 @@ The insights generated can assist **healthcare organizations, policymakers, and 
 
 ## 1️Total Deaths from 2017-2021  
 
-📉 **Trend analysis** shows a decline in deaths after **2019**, possibly due to shifts in healthcare priorities during the pandemic.  
+**Trend analysis** shows a decline in deaths after **2019**, possibly due to shifts in healthcare priorities during the pandemic.  
 
 <p align="center">  
   <img src="https://github.com/user-attachments/assets/78ba56b9-a6ed-4cf3-bd09-e4239378f0b1" width="600">  
