@@ -81,4 +81,22 @@ The insights generated can assist **healthcare organizations, policymakers, and 
 </p>
 
 ---
+# 6 SQL Queries for Data Analysis
 
+To analyze mortality trends and identify key patterns, we used **SQL queries** for data extraction and transformation.
+
+## 1. Total Deaths by Cause
+
+📌 **Insight:** The leading cause of deaths is **intentional self-harm**, followed by **mental and behavioral disorders**.
+
+```sql
+SELECT Cause,
+       SUM(Deaths) AS Total_Deaths
+FROM mortality_data
+GROUP BY Cause
+ORDER BY Total_Deaths DESC
+LIMIT 10;
+
+<p align="center">  
+  <img src="https://github.com/user-attachments/assets/9c378f9b-5c77-49f7-98f8-ef493d5f61e8" width="600" >  
+</p>
