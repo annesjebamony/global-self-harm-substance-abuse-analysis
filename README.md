@@ -106,7 +106,6 @@ LIMIT 10;
 **Insight:** There was a significant drop in deaths after 2019, possibly due to shifts in healthcare priorities during the pandemic.
 
 ```sql
-query = """
 WITH YearlyDeaths AS (
     SELECT Year, 
            SUM(Deaths) AS Total_Deaths
@@ -123,3 +122,5 @@ FROM YearlyDeaths;
 <p align="center">  
   <img src="https://github.com/user-attachments/assets/02adce2a-2a59-4597-8207-3abfb6a54b09" width="600" >  
 </p>
+
+
