@@ -23,4 +23,61 @@ The insights generated can assist **healthcare organizations, policymakers, and 
 - Used for **geographic visualization** in **choropleth maps**  
 
 ### **Data Cleaning:**  
-- **Handled inconsistencies, missing values, and outliers** to ensure reliable analysis 
+- **Handled inconsistencies, missing values, and outliers** to ensure reliable analysis
+
+# **Key Findings & Visualizations**
+---
+
+## 1️Total Deaths from 2017-2021  
+
+📉 **Trend analysis** shows a decline in deaths after **2019**, possibly due to shifts in healthcare priorities during the pandemic.  
+
+<p align="center">  
+  <img src="![image](https://github.com/user-attachments/assets/03abd5ec-dfb7-478a-b973-4ffa04d29596)
+" width="600">  
+</p>
+
+---
+
+## 2️Proportion of Deaths by Gender  
+
+- **Males (77.9%)** have a significantly higher mortality rate than females (22.1%) in both categories.  
+- This highlights a **critical gender disparity** in mental health crises and substance-related deaths.  
+
+<p align="center">  
+  <img src="your_path_here.png" width="400">  
+</p>
+
+---
+
+## 3️Age Group Analysis for Two Causes  
+
+- **Mental & Behavioral Disorders:** Deaths peak in **ages 85-89**, potentially due to **late-life cognitive disorders & addiction issues**.  
+- **Intentional Self-Harm:** Noticeable rise in **middle-aged groups (45-64)**, requiring targeted interventions.  
+
+<p align="center">  
+  <img src="your_path_here.png" width="600">  
+</p>
+
+---
+
+## 4️Global Distribution of Deaths  
+
+- **United States, Russia, and Brazil** report the highest mortality.  
+- Geographic disparities suggest **different healthcare policies and social factors** impacting these deaths.  
+
+<p align="center">  
+  <img src="your_path_here.png" width="600">  
+</p>
+
+---
+
+## 5️Top 10 Countries with Highest Deaths  
+
+- The **United States leads** with over **1M deaths**, followed by **Brazil and Japan**.  
+- These insights could drive **preventive care investments** and **mental health policy reforms**.  
+
+<p align="center">  
+  <img src="your_path_here.png" width="600">  
+</p>
+
