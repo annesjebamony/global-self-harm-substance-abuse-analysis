@@ -81,13 +81,13 @@ The insights generated can assist **healthcare organizations, policymakers, and 
 </p>
 
 ---
-# 6 SQL Queries for Data Analysis
+# 6️ SQL Queries for Data Analysis
 
 To analyze mortality trends and identify key patterns, we used **SQL queries** for data extraction and transformation.
 
 ## 1. Total Deaths by Cause
 
-📌 **Insight:** The leading cause of deaths is **intentional self-harm**, followed by **mental and behavioral disorders**.
+ **Insight:** The leading cause of deaths is **intentional self-harm**, followed by **mental and behavioral disorders**.
 
 ```sql
 SELECT Cause,
@@ -99,4 +99,27 @@ LIMIT 10;
 ```
 <p align="center">  
   <img src="https://github.com/user-attachments/assets/9c378f9b-5c77-49f7-98f8-ef493d5f61e8" width="600" >  
+</p>
+
+## 2. Yearly Growth Rate Analysis
+
+**Insight:** There was a significant drop in deaths after 2019, possibly due to shifts in healthcare priorities during the pandemic.
+
+```sql
+query = """
+WITH YearlyDeaths AS (
+    SELECT Year, 
+           SUM(Deaths) AS Total_Deaths
+    FROM mortality_data
+    GROUP BY Year
+)
+SELECT Year, 
+       Total_Deaths,
+       LAG(Total_Deaths) OVER (ORDER BY Year) AS Previous_Year_Deaths,
+       ((Total_Deaths - LAG(Total_Deaths) OVER (ORDER BY Year)) * 100.0 / 
+         LAG(Total_Deaths) OVER (ORDER BY Year)) AS Yearly_Growth_Rate
+FROM YearlyDeaths;
+```
+<p align="center">  
+  <img src="https://github.com/user-attachments/assets/02adce2a-2a59-4597-8207-3abfb6a54b09" width="600" >  
 </p>
